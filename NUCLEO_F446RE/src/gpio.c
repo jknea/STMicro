@@ -4,8 +4,8 @@
  *  Details.
  */
 
-#include "stm32f446inc/stm32f446xx.h"
-#include "inc/gpio.h"
+#include "stm32f446xx.h"
+#include "gpio.h"
 
 /* functions hidden to user */
 uint8_t gpioPinNum(uint8_t stm32_pin);

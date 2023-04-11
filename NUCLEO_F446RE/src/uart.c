@@ -4,9 +4,9 @@
  *  Created on: Mar 20, 2023
  *      Author: kneaj
  */
-#include "inc/uart.h"
-#include "inc/gpio.h"
-#include "stm32f446inc/stm32f446xx.h"
+#include "uart.h"
+#include "gpio.h"
+#include "stm32f446xx.h"
 
 #define SYS_FREQ	16000000UL	// internal RC oscillator frequency
 #define APB1_CLK	SYS_FREQ

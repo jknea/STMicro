@@ -4,12 +4,12 @@
  *  Created on: Mar 26, 2023
  *      Author: kneaj
  */
-#include "stm32f446inc/stm32f446xx.h"
-
 //pb8 = SCL1
 //pb0 == SDA
 
-#include "inc/gpio.h"
+
+#include "stm32f446xx.h"
+#include "gpio.h"
 
 #define I2C_100KHZ	80
 #define SD_MODE_MAX_RISE_TIME 	17

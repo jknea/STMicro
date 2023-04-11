@@ -6,8 +6,8 @@
  */
 
 
-#include "stm32f446inc/stm32f446xx.h"
-#include "stm32f446inc/core_cm4.h"
+#include "stm32f446xx.h"
+#include "core_cm4.h"
 
 #define SYS_FREQ		16000000
 #define SYSTICK_16MHz_1ms		(SYS_FREQ/1000) - 1

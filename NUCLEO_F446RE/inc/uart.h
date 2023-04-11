@@ -9,7 +9,7 @@
 
 #define UART_H_
 
-#include "stm32f446inc/stm32f446xx.h"
+#include "stm32f446xx.h"
 #include <stdio.h>
 
 void uart2_txrx_init();

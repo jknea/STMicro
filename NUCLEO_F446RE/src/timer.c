@@ -4,10 +4,10 @@
  *  Created on: Mar 22, 2023
  *      Author: kneaj
  */
-#include "stm32f446inc/stm32f446xx.h"
-#include "inc/timer.h"
-#include "inc/gpio.h"
-#include "inc/uart.h"
+#include "stm32f446xx.h"
+#include "timer.h"
+#include "gpio.h"
+#include "uart.h"
 
 #include <stddef.h>
 
